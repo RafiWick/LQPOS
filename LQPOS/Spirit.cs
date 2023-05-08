@@ -8,18 +8,22 @@ namespace LQPOS
 {
     public class Spirit
     {
-        string Name;
-        string Brand;
-        float Cost;
-        float Price;
-        int Stock;
+        public string Name;
+        public string Brand;
+        public string Code;
+        public float Cost;
+        public float Price;
+        public int Size;
+        public int Stock;
 
-        public Spirit(string name, string brand, float cost, float price)
+        public Spirit(string name, string brand, string code, float cost, float price, int size)
         {
             Name = name;
             Brand = brand;
+            Code = code;
             Cost = cost;
             Price = price;
+            Size = size;
             Stock = 0;
         }
     }

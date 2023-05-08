@@ -8,9 +8,9 @@ namespace LQPOS
 {
     public class Inventory
     {
-        List<Beer> Beers;
-        List<Wine> Wines;
-        List<Spirit> Spirits;
+        public List<Beer> Beers;
+        public List<Wine> Wines;
+        public List<Spirit> Spirits;
         public Inventory()
         {
             Beers = new List<Beer>();
