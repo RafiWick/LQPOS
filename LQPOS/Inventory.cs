@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace LQPOS
 {
-    internal class Inventory
+    public class Inventory
     {
+        List<Beer> Beers;
+        List<Wine> Wines;
+        List<Spirit> Spirits;
+        public Inventory()
+        {
+            Beers = new List<Beer>();
+            Wines = new List<Wine>();
+            Spirits = new List<Spirit>();
+        }
     }
 }

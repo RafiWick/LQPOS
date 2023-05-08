@@ -6,7 +6,21 @@ using System.Threading.Tasks;
 
 namespace LQPOS
 {
-    internal class Spirit
+    public class Spirit
     {
+        string Name;
+        string Brand;
+        float Cost;
+        float Price;
+        int Stock;
+
+        public Spirit(string name, string brand, float cost, float price)
+        {
+            Name = name;
+            Brand = brand;
+            Cost = cost;
+            Price = price;
+            Stock = 0;
+        }
     }
 }
