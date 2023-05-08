@@ -26,5 +26,10 @@ namespace LQPOS
             Stock = 0;
             Size = size;
         }
+
+        public void AddStock(int count)
+        {
+            Stock += count;
+        }
     }
 }
